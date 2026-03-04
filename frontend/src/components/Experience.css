@@ -1,0 +1,154 @@
+/* ---- Experience Timeline ---- */
+.exp__timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.exp__timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    var(--color-accent-cyan),
+    var(--color-accent-violet),
+    transparent
+  );
+}
+
+.exp__item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.exp__item:last-child {
+  margin-bottom: 0;
+}
+
+.exp__timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 28px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-bg-primary);
+  border: 2px solid var(--color-accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent-cyan);
+  font-size: 0.75rem;
+  z-index: 1;
+}
+
+.exp__card {
+  padding: 32px;
+}
+
+.exp__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.exp__role {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.exp__company {
+  font-size: 1.05rem;
+  color: var(--color-accent-cyan);
+  font-weight: 600;
+}
+
+.exp__meta {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.exp__period {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-accent-violet);
+  font-weight: 500;
+}
+
+.exp__location {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.exp__highlights {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.exp__highlight-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.exp__highlight-item::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent-cyan);
+  font-weight: 700;
+}
+
+.exp__tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exp__tech-tag {
+  padding: 4px 12px;
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-accent-cyan);
+}
+
+@media (max-width: 768px) {
+  .exp__card-header {
+    flex-direction: column;
+  }
+
+  .exp__meta {
+    text-align: left;
+  }
+
+  .exp__timeline {
+    padding-left: 32px;
+  }
+
+  .exp__timeline::before {
+    left: 11px;
+  }
+
+  .exp__timeline-dot {
+    left: -32px;
+    width: 24px;
+    height: 24px;
+    font-size: 0.6rem;
+  }
+}
