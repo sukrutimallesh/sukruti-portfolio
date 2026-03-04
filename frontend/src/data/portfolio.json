@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "name": "Sukruti Mallesh",
+    "title": "Software Engineer @ PayPal",
+    "tagline": "Building intelligent systems at the intersection of AI and fintech",
+    "summary": "Software Engineer at PayPal building agentic commerce integrations, compliance automation, and high-reliability transaction systems processing $1B+ TPV per quarter. Previously built full-stack applications at AIR Communities and conducted ML research at SDSU. BS in Computer Science from San Diego State University with a 4.0 GPA, graduated Summa Cum Laude in 2.5 years.",
+    "email": "sukrutimallesh@gmail.com",
+    "linkedin": "www.linkedin.com/in/sukruti-mallesh-3524a021b",
+    "github": "github.com/sukrutimallesh",
+    "location": "San Diego, CA"
+  },
+  "experiences": [
+    {
+      "company": "PayPal",
+      "role": "Software Engineer",
+      "location": "Austin, TX",
+      "period": "Feb 2025 - Present",
+      "highlights": [
+        "Developed an intelligent compliance chatbot using LangChain orchestration and RAG architecture, building vector embedding pipelines for all policy libraries and the entire compliance codebase with a graph database validation layer for improved answer accuracy",
+        "Led multiple gaming policy library projects to onboard new countries and financial instruments, implementing IPv6 location validation and integrating external merchant platforms including DraftKings and BetMGM, significantly improving gaming merchant payment acceptance rates",
+        "Built and delivered agentic commerce integrations with Microsoft Copilot, Perplexity, and Meta AI, allowing users to discover, purchase, and checkout seamlessly using PayPal within AI experiences",
+        "Delivered time-sensitive, high-reliability systems for the Prediction Markets vertical, supporting PayPal's partnership with Kalshi and processing $1B+ TPV per quarter with 99.99% availability",
+        "Implemented comprehensive compliance policy validation across multiple product lines and merchant portfolios like JetBlue and Klarna, expanding payment processing capabilities and merchant ecosystem",
+        "Executed large-scale migration ensuring system modernization and platform consolidation with zero downtime"
+      ],
+      "technologies": ["Java", "Spring Boot", "Python", "LangChain", "RAG", "Kafka", "Docker", "Kubernetes", "GraphQL", "MCP"]
+    },
+    {
+      "company": "AIR Communities (Blackstone Portfolio Company)",
+      "role": "Software Engineer",
+      "location": "Denver, CO",
+      "period": "May 2024 - Feb 2025",
+      "highlights": [
+        "Built an in-house parking portal supporting four user personas: Guest, Community Manager, Super Admin, and Towing Company, improving access control and user experience by 95%",
+        "Developed a full-stack web application using React, .NET, and RESTful APIs integrated with Azure Gateway, leading to a 25% increase in scalability and API performance",
+        "Implemented secure payment processing through Stripe API integration, enabling seamless parking fee collection and automated receipt generation",
+        "Refactored state management by replacing local storage with Context API and Redux, reducing browser switching issues by 40% and integrated Twilio SMS API for OTP verification and automated notifications, driving a 30% increase in user engagement",
+        "Integrated an open-source Metro 2 software converter to process resident credit reports, performing data mapping from Entrata and Plaid to generate accurate credit histories"
+      ],
+      "technologies": ["React", ".NET", "Azure", "Stripe API", "Redux", "Twilio", "REST APIs", "Context API"]
+    },
+    {
+      "company": "San Diego State University",
+      "role": "Machine Learning Researcher",
+      "location": "San Diego, CA",
+      "period": "Jun 2023 - Dec 2024",
+      "highlights": [
+        "Developed NLP-based school review sentiment analysis, uncovering key topics and sentiment trends in local school reviews",
+        "Analyzed Google Street View images for roadway segmentation and clustering, adding community rating indices based on infrastructure quality",
+        "Built a machine learning classifier to categorize house photos and applied large vision models to generate automated text descriptions for enhanced property listings",
+        "Integrated noise and radiation safety heatmaps into Homeye, visually mapping environmental impacts around properties",
+        "Conducted satellite image analysis to create a Greenness Index and performed roadway analysis to estimate the effect on property prices"
+      ],
+      "technologies": ["Python", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models", "Satellite Imagery"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E2E Testing Automation Tool — PayPal",
+      "description": "Custom MCP backend server using Spring Boot that revolutionizes E2E testing workflows, transforming manual log analysis into an intelligent, automated business log validation system.",
+      "technologies": ["Spring Boot", "MCP", "GitHub Copilot", "Docker", "NLP"],
+      "highlights": [
+        "Engineered file chunking logic for context window compatibility with GitHub Copilot, improving testing efficiency by 90%",
+        "Integrated GitHub Copilot for intuitive natural language log analysis with instant validation results",
+        "Connected system to compliance codebase for contextual answers with precise line-level traceability",
+        "Optimized codebase loading with a containerized Docker solution and auto-reload mechanism"
+      ]
+    },
+    {
+      "title": "Snappy — Real-Time Chat App",
+      "description": "A real-time chat application with an optimized React interface, Socket.io for instant messaging, and MongoDB for persistent data storage.",
+      "technologies": ["MongoDB", "React", "Express", "Node.js", "Socket.io"],
+      "highlights": [
+        "Integrated Socket.io for real-time communication, delivering messages 80% more efficiently than HTTP",
+        "Built a responsive Node.js/Express backend, reducing server response time by 25%",
+        "Improved query speeds by 30% with MongoDB while maintaining data integrity"
+      ]
+    },
+    {
+      "title": "Yelp Clone",
+      "description": "A streamlined Yelp web application with a dynamic interface for effortless business data viewing and modification.",
+      "technologies": ["React", "Express", "Node.js", "PostgreSQL"],
+      "highlights": [
+        "Parsed and inserted 500,000 highly nested Yelp businesses, reviews, and users into PostgreSQL",
+        "Reduced query response time by 70% through efficient data management",
+        "Engineered an Express server for faster response times and improved performance"
+      ]
+    },
+    {
+      "title": "Reddit Clone",
+      "description": "A Reddit clone web application featuring a modern UI for content browsing, secure authentication, and optimized database operations.",
+      "technologies": ["Angular", "Spring Boot", "MySQL", "Spring Security", "JWT"],
+      "highlights": [
+        "Implemented secure user login with Spring Security and JWT authentication",
+        "Optimized database operations with Spring Data JPA, resulting in 30% efficiency improvement",
+        "Built a modern Angular 9 interface for effortless content browsing and interaction"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "San Diego State University",
+      "degree": "Bachelor of Science in Computer Science",
+      "location": "San Diego, CA",
+      "period": "Aug 2022 - Dec 2024",
+      "gpa": "4.0 / 4.0",
+      "coursework": [
+        "Data Structures",
+        "Algorithms",
+        "Java OOP",
+        "Web Applications",
+        "C++ Program Design",
+        "Software Systems",
+        "Systems Programming"
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": ["Java", "Python", "C", "C++", ".NET", "JavaScript", "SQL", "HTML", "CSS", "TypeScript", "Haskell", "MIPS"],
+    "Frameworks & Libraries": ["React", "Angular", "Node.js", "Spring Boot", "Express", "LangChain", "Socket.io", "Spring Security", "JWT"],
+    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD"],
+    "Data & Databases": ["PostgreSQL", "MongoDB", "MySQL", "Oracle DB", "Redis", "Kafka"],
+    "AI & ML": ["RAG", "LangChain", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models"]
+  },
+  "certifications": []
+}

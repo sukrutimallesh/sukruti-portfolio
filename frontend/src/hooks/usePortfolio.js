@@ -1,9 +1,11 @@
 /**
  * Custom hook for fetching and managing portfolio data.
+ * Falls back to static data when the backend API is unavailable.
  */
 
 import { useEffect, useState } from "react";
 import { fetchPortfolio } from "../services/api";
+import staticData from "../data/portfolio.json";
 
 export const usePortfolio = () => {
   const [data, setData] = useState(null);
@@ -16,7 +18,7 @@ export const usePortfolio = () => {
         const portfolio = await fetchPortfolio();
         setData(portfolio);
       } catch (err) {
-        setError(err.message);
+        setData(staticData);
       } finally {
         setLoading(false);
       }
