@@ -16,7 +16,7 @@
       "location": "Austin, TX",
       "period": "March 2026 - Present",
       "highlights": [],
-      "technologies": ["Java", "Spring Boot", "Python", "Kafka", "Docker", "Kubernetes", "GraphQL"]
+      "technologies": ["Ruby on Rails", "AWS", "PostgreSQL"]
     },
     {
       "company": "PayPal — Compliance",
@@ -31,7 +31,7 @@
         "Implemented comprehensive compliance policy validation across multiple product lines and merchant portfolios like JetBlue and Klarna, expanding payment processing capabilities and merchant ecosystem",
         "Executed large-scale migration ensuring system modernization and platform consolidation with zero downtime"
       ],
-      "technologies": ["Java", "Spring Boot", "Python", "LangChain", "RAG", "Kafka", "Docker", "Kubernetes", "GraphQL", "MCP"]
+      "technologies": ["Java", "Spring Boot", "Python", "GCP", "RAG", "LangChain", "Docker", "MCP", "RESTful APIs", "MySQL"]
     },
     {
       "company": "AIR Communities (Blackstone Portfolio Company)",
