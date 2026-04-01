@@ -7,14 +7,22 @@
     "email": "sukrutimallesh@gmail.com",
     "linkedin": "www.linkedin.com/in/sukruti-mallesh-3524a021b",
     "github": "github.com/sukrutimallesh",
-    "location": "San Diego, CA"
+    "location": "Austin, TX"
   },
   "experiences": [
     {
-      "company": "PayPal",
+      "company": "PayPal — Braintree, Pay with Venmo",
       "role": "Software Engineer",
       "location": "Austin, TX",
-      "period": "Feb 2025 - Present",
+      "period": "March 2026 - Present",
+      "highlights": [],
+      "technologies": ["Java", "Spring Boot", "Python", "Kafka", "Docker", "Kubernetes", "GraphQL"]
+    },
+    {
+      "company": "PayPal — Compliance",
+      "role": "Software Engineer",
+      "location": "San Jose, CA",
+      "period": "Feb 2025 - March 2026",
       "highlights": [
         "Developed an intelligent compliance chatbot using LangChain orchestration and RAG architecture, building vector embedding pipelines for all policy libraries and the entire compliance codebase with a graph database validation layer for improved answer accuracy",
         "Led multiple gaming policy library projects to onboard new countries and financial instruments, implementing IPv6 location validation and integrating external merchant platforms including DraftKings and BetMGM, significantly improving gaming merchant payment acceptance rates",
