@@ -133,5 +133,5 @@
     "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD", "Jenkins", "Terraform", "Datadog"],
     "Data & Databases": ["PostgreSQL", "MongoDB", "MySQL", "Oracle DB", "Redis", "Kafka"],
     "AI & ML": ["RAG", "LangChain", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models"]
-  },
+  }
 }
