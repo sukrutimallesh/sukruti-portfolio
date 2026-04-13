@@ -129,10 +129,9 @@
   ],
   "skills": {
     "Languages": ["Java", "Python", "C", "C++", ".NET", "JavaScript", "SQL", "HTML", "CSS", "TypeScript", "Haskell", "MIPS"],
-    "Frameworks & Libraries": ["React", "Angular", "Node.js", "Spring Boot", "Express", "LangChain", "Socket.io", "Spring Security", "JWT"],
-    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD"],
+    "Frameworks & Libraries": ["React", "Angular", "Node.js", "Spring Boot", "Express", "LangChain", "Socket.io", "Spring Security", "JWT", "Ruby on Rails"],
+    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD", "Jenkins", "Terraform", "Datadog"],
     "Data & Databases": ["PostgreSQL", "MongoDB", "MySQL", "Oracle DB", "Redis", "Kafka"],
     "AI & ML": ["RAG", "LangChain", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models"]
   },
-  "certifications": []
 }
