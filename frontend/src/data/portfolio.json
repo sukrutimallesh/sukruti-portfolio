@@ -15,7 +15,11 @@
       "role": "Software Engineer",
       "location": "Austin, TX",
       "period": "March 2026 - Present",
-      "highlights": [],
+      "highlights": [
+        "Engineered and scaled Braintree's core Rails-based payment platform, reliably processing millions of global transactions daily",
+        "Built and optimized end-to-end payment flows (authorization → settlement → disputes), improving performance and system resilience",
+        "Delivered seamless integrations with global payment processors and digital wallets, enabling secure, high-volume transactions across international markets"
+      ],
       "technologies": ["Ruby on Rails", "AWS", "PostgreSQL", "Docker", "Kubernetes", "Redis", "Kafka", "Datadog", "Jenkins", "Terraform"]
     },
     {
