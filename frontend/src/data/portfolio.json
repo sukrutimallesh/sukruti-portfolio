@@ -16,7 +16,7 @@
       "location": "Austin, TX",
       "period": "March 2026 - Present",
       "highlights": [],
-      "technologies": ["Ruby on Rails", "AWS", "PostgreSQL"]
+      "technologies": ["Ruby on Rails", "AWS", "PostgreSQL", "Docker", "Kubernetes", "Redis", "Kafka", "Datadog", "Jenkins", "Terraform"]
     },
     {
       "company": "PayPal — Compliance",
