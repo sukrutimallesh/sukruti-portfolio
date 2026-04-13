@@ -30,13 +30,6 @@ const HIGHLIGHTS = [
   },
 ];
 
-const STATS = [
-  { value: "$1B+", label: "TPV per Quarter" },
-  { value: "99.99%", label: "System Availability" },
-  { value: "4.0", label: "GPA — Summa Cum Laude" },
-  { value: "2.5yr", label: "Degree Completion" },
-];
-
 const About = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
@@ -49,21 +42,6 @@ const About = () => {
           <p className="section-subtitle">
             I turn complex engineering challenges into elegant, scalable solutions
           </p>
-        </div>
-
-        <div className="about__stats">
-          {STATS.map((stat, i) => (
-            <motion.div
-              key={stat.label}
-              className="about__stat"
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-            >
-              <span className="about__stat-value">{stat.value}</span>
-              <span className="about__stat-label">{stat.label}</span>
-            </motion.div>
-          ))}
         </div>
 
         <div className="about__highlights">
