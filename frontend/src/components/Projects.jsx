@@ -35,12 +35,16 @@ const Projects = ({ projects }) => {
               <div className="projects__card-top">
                 <span className="projects__number">{PROJECT_ICONS[i]}</span>
                 <div className="projects__card-links">
-                  <a href="#" className="projects__icon-link" aria-label="GitHub">
-                    <FaGithub />
-                  </a>
-                  <a href="#" className="projects__icon-link" aria-label="External">
-                    <FaExternalLinkAlt />
-                  </a>
+                  {project.githubUrl && (
+                    <a href={project.githubUrl} target="_blank" rel="noreferrer" className="projects__icon-link" aria-label="GitHub">
+                      <FaGithub />
+                    </a>
+                  )}
+                  {project.liveUrl && (
+                    <a href={project.liveUrl} target="_blank" rel="noreferrer" className="projects__icon-link" aria-label="External">
+                      <FaExternalLinkAlt />
+                    </a>
+                  )}
                 </div>
               </div>
 
