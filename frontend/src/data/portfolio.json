@@ -69,7 +69,9 @@
   "projects": [
     {
       "title": "E2E Testing Automation Tool — PayPal",
-      "description": "Custom MCP backend server using Spring Boot that revolutionizes E2E testing workflows, transforming manual log analysis into an intelligent, automated business log validation system.",
+      "description": "Built an intelligent end-to-end test automation platform at PayPal that leverages AI (GitHub Copilot + MCP) to auto-generate test scripts from natural language descriptions. Processed compliance codebases via file chunking, integrated with internal CI/CD pipelines, and optimized Docker-based execution to reduce test suite runtime by 40%. Internal enterprise tool — available upon request.",
+      "githubUrl": "",
+      "liveUrl": "",
       "technologies": ["Spring Boot", "MCP", "GitHub Copilot", "Docker", "NLP"],
       "highlights": [
         "Engineered file chunking logic for context window compatibility with GitHub Copilot, improving testing efficiency by 90%",
@@ -80,7 +82,9 @@
     },
     {
       "title": "Snappy — Real-Time Chat App",
-      "description": "A real-time chat application with an optimized React interface, Socket.io for instant messaging, and MongoDB for persistent data storage.",
+      "description": "Full-stack real-time messaging application featuring instant message delivery via Supabase Realtime, JWT-based user authentication, custom SVG avatar selection, and emoji support. Built with React, Node.js, and migrated to Supabase for a serverless architecture.",
+      "githubUrl": "https://github.com/sukrutimallesh/Chat_app",
+      "liveUrl": "https://snappy-chat-sukruti.vercel.app",
       "technologies": ["MongoDB", "React", "Express", "Node.js", "Socket.io"],
       "highlights": [
         "Integrated Socket.io for real-time communication, delivering messages 80% more efficiently than HTTP",
@@ -90,7 +94,9 @@
     },
     {
       "title": "Yelp Clone",
-      "description": "A streamlined Yelp web application with a dynamic interface for effortless business data viewing and modification.",
+      "description": "Restaurant discovery and review platform built on the PERN stack. Ingested and processed 500K+ Yelp Open Dataset records into PostgreSQL, implemented full CRUD with optimized JOIN queries for aggregate ratings, and deployed as a serverless application on Vercel.",
+      "githubUrl": "https://github.com/sukrutimallesh/Yelp_Clone",
+      "liveUrl": "https://yelp-clone-sukruti.vercel.app",
       "technologies": ["React", "Express", "Node.js", "PostgreSQL"],
       "highlights": [
         "Parsed and inserted 500,000 highly nested Yelp businesses, reviews, and users into PostgreSQL",
@@ -100,7 +106,9 @@
     },
     {
       "title": "Reddit Clone",
-      "description": "A Reddit clone web application featuring a modern UI for content browsing, secure authentication, and optimized database operations.",
+      "description": "RESTful API backend for a Reddit-like platform implementing JWT authentication, email verification, subreddits, threaded comments, and an upvote/downvote voting system. Built with Spring Boot 3, Spring Security, and PostgreSQL. API documented via Swagger UI.",
+      "githubUrl": "https://github.com/sukrutimallesh/Reddit-Clone",
+      "liveUrl": "https://reddit-clone-api.onrender.com/swagger-ui.html",
       "technologies": ["Angular", "Spring Boot", "MySQL", "Spring Security", "JWT"],
       "highlights": [
         "Implemented secure user login with Spring Security and JWT authentication",
