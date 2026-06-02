@@ -82,9 +82,9 @@
     },
     {
       "title": "Snappy — Real-Time Chat App",
-      "description": "Full-stack real-time messaging application featuring instant message delivery via Supabase Realtime, JWT-based user authentication, custom SVG avatar selection, and emoji support. Built with React, Node.js, and migrated to Supabase for a serverless architecture.",
+      "description": "Full-stack real-time messaging application featuring instant message delivery via Socket.io WebSocket connections, bcrypt-secured authentication, custom SVG avatar selection via Multiavatar API, and emoji support. Guest mode lets anyone try it instantly — no signup required.",
       "githubUrl": "https://github.com/sukrutimallesh/Chat_app",
-      "liveUrl": "https://snappy-chat-sukruti.vercel.app",
+      "liveUrl": "https://snappy-chat-alpha.vercel.app",
       "technologies": ["MongoDB", "React", "Express", "Node.js", "Socket.io"],
       "highlights": [
         "Integrated Socket.io for real-time communication, delivering messages 80% more efficiently than HTTP",
@@ -106,14 +106,14 @@
     },
     {
       "title": "Reddit Clone",
-      "description": "RESTful API backend for a Reddit-like platform implementing JWT authentication, email verification, subreddits, threaded comments, and an upvote/downvote voting system. Built with Spring Boot 3, Spring Security, and PostgreSQL. API documented via Swagger UI.",
+      "description": "Production-ready RESTful API for a Reddit-like platform with JWT authentication, email verification, subreddits, threaded comments, and upvote/downvote voting. Built with Spring Boot 3 and Spring Security, deployed via Docker on Render with PostgreSQL. Full API explorer available via Swagger UI.",
       "githubUrl": "https://github.com/sukrutimallesh/Reddit-Clone",
-      "liveUrl": "https://reddit-clone-api.onrender.com/swagger-ui.html",
-      "technologies": ["Angular", "Spring Boot", "MySQL", "Spring Security", "JWT"],
+      "liveUrl": "https://reddit-clone-api-h2nr.onrender.com/swagger-ui.html",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Spring Security", "JWT"],
       "highlights": [
-        "Implemented secure user login with Spring Security and JWT authentication",
-        "Optimized database operations with Spring Data JPA, resulting in 30% efficiency improvement",
-        "Built a modern Angular 9 interface for effortless content browsing and interaction"
+        "Implemented secure user authentication with Spring Security, JWT tokens, and email verification flow",
+        "Optimized database operations with Spring Data JPA and PostgreSQL, achieving 30% query efficiency improvement",
+        "Designed full REST API covering auth, subreddits, posts, comments, and votes — documented via Swagger UI"
       ]
     }
   ],
