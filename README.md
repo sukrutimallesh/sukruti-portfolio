@@ -21,8 +21,7 @@ A modern, recruiter-facing portfolio showcasing my work in software engineering,
 ## Featured Projects
 
 ### 1. E2E Testing Automation Tool — PayPal
-Internal enterprise tool. Built an intelligent end-to-end test automation platform at PayPal using AI (GitHub Copilot + MCP) to auto-generate test scripts from natural language descriptions. Reduced test suite runtime by 40%.
-- GitHub: Internal/confidential — available upon request
+Internal PayPal enterprise tool. Built an intelligent end-to-end test automation platform at PayPal using AI (GitHub Copilot + MCP) to auto-generate test scripts from natural language descriptions. Reduced test suite runtime by 40%.
 
 ### 2. Snappy — Real-Time Chat App
 Full-stack real-time messaging app with Supabase Realtime, JWT auth, custom SVG avatars, and emoji support.
