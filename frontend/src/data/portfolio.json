@@ -11,19 +11,21 @@
   },
   "experiences": [
     {
-      "company": "PayPal — Braintree, Pay with Venmo",
+      "company": "PayPal - Braintree, Pay with Venmo",
       "role": "Software Engineer",
       "location": "Austin, TX",
       "period": "March 2026 - Present",
       "highlights": [
-        "Engineered and scaled Braintree's core Rails-based payment platform, reliably processing millions of global transactions daily",
-        "Built and optimized end-to-end payment flows (authorization → settlement → disputes), improving performance and system resilience",
-        "Delivered seamless integrations with global payment processors and digital wallets, enabling secure, high-volume transactions across international markets"
+        "Launched Braintree's Pay with Venmo self-service onboarding experience using Ruby on Rails, enabling 66 merchants after GA at 2× the standard activation rate; the broader pilot generated $1.14M in payment volume across 25K transactions",
+        "Redesigned production database queries that were taking 20+ seconds, eliminating statement-timeout errors without schema changes or large-table indexing while protecting the merchant payment experience",
+        "Built payment-processing support to forward airline transaction data to PayPal during capture, helping satisfy Mastercard and Discover requirements and enabling eligible transactions to qualify for lower interchange rates",
+        "Engineered production-safe data migration and backfill workflows with dry-run reporting, batching, throttling, idempotent writes, error isolation, and overwrite protection to improve compliance data integrity across existing merchant records",
+        "Engineered and supported Braintree's core Rails-based payment platform, processing millions of global transactions daily, while resolving live production issues for merchants and integration partners through on-call support"
       ],
       "technologies": ["Ruby on Rails", "AWS", "PostgreSQL", "Docker", "Kubernetes", "Redis", "Kafka", "Datadog", "Jenkins", "Terraform"]
     },
     {
-      "company": "PayPal — Compliance",
+      "company": "PayPal - Compliance",
       "role": "Software Engineer",
       "location": "San Jose, CA",
       "period": "Feb 2025 - March 2026",
@@ -47,6 +49,7 @@
         "Developed a full-stack web application using React, .NET, and RESTful APIs integrated with Azure Gateway, leading to a 25% increase in scalability and API performance",
         "Implemented secure payment processing through Stripe API integration, enabling seamless parking fee collection and automated receipt generation",
         "Refactored state management by replacing local storage with Context API and Redux, reducing browser switching issues by 40% and integrated Twilio SMS API for OTP verification and automated notifications, driving a 30% increase in user engagement",
+        "Designed the architecture for a locker system, outlining workflows and data flows to ensure seamless integration and operational efficiency",
         "Integrated an open-source Metro 2 software converter to process resident credit reports, performing data mapping from Entrata and Plaid to generate accurate credit histories"
       ],
       "technologies": ["React", ".NET", "Azure", "Stripe API", "Redux", "Twilio", "REST APIs", "Context API"]
@@ -68,8 +71,8 @@
   ],
   "projects": [
     {
-      "title": "E2E Testing Automation Tool — PayPal",
-      "description": "Built an intelligent end-to-end test automation platform at PayPal that leverages AI (GitHub Copilot + MCP) to auto-generate test scripts from natural language descriptions. Processed compliance codebases via file chunking, integrated with internal CI/CD pipelines, and optimized Docker-based execution to reduce test suite runtime by 40%. Internal enterprise tool — available upon request.",
+      "title": "E2E Testing Automation Tool - PayPal",
+      "description": "Built an intelligent end-to-end test automation platform at PayPal that leverages AI (GitHub Copilot + MCP) to auto-generate test scripts from natural language descriptions. Processed compliance codebases via file chunking, integrated with internal CI/CD pipelines, and optimized Docker-based execution to reduce test suite runtime by 40%. Internal enterprise tool - available upon request.",
       "githubUrl": "",
       "liveUrl": "",
       "technologies": ["Spring Boot", "MCP", "GitHub Copilot", "Docker", "NLP"],
@@ -81,8 +84,8 @@
       ]
     },
     {
-      "title": "Snappy — Real-Time Chat App",
-      "description": "Full-stack real-time messaging application featuring instant message delivery via Socket.io WebSocket connections, bcrypt-secured authentication, custom SVG avatar selection via Multiavatar API, and emoji support. Guest mode lets anyone try it instantly — no signup required.",
+      "title": "Snappy - Real-Time Chat App",
+      "description": "Full-stack real-time messaging application featuring instant message delivery via Socket.io WebSocket connections, bcrypt-secured authentication, custom SVG avatar selection via Multiavatar API, and emoji support. Guest mode lets anyone try it instantly - no signup required.",
       "githubUrl": "https://github.com/sukrutimallesh/Chat_app",
       "liveUrl": "https://snappy-chat-alpha.vercel.app",
       "technologies": ["MongoDB", "React", "Express", "Node.js", "Socket.io"],
@@ -113,7 +116,7 @@
       "highlights": [
         "Implemented secure user authentication with Spring Security, JWT tokens, and email verification flow",
         "Optimized database operations with Spring Data JPA and PostgreSQL, achieving 30% query efficiency improvement",
-        "Designed full REST API covering auth, subreddits, posts, comments, and votes — documented via Swagger UI"
+        "Designed full REST API covering auth, subreddits, posts, comments, and votes - documented via Swagger UI"
       ]
     }
   ],
