@@ -19,6 +19,7 @@ const CATEGORY_ICONS = {
   "Cloud & DevOps": <FaCloud />,
   "Data & Messaging": <FaDatabase />,
   "Practices & Tools": <FaTools />,
+  "Tools & Platforms": <FaTools />,
 };
 
 const Skills = ({ skills }) => {

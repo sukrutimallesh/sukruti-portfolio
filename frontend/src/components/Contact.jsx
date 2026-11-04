@@ -5,7 +5,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { submitContact } from "../services/api";
 import "./Contact.css";
 
@@ -68,6 +68,15 @@ const Contact = ({ profile }) => {
                 <FaEnvelope className="contact__info-icon" />
                 <span>{profile.email}</span>
               </a>
+              {profile.phone && (
+                <a
+                  href={`tel:${profile.phone.replace(/\D/g, "")}`}
+                  className="contact__info-item"
+                >
+                  <FaPhoneAlt className="contact__info-icon" />
+                  <span>{profile.phone}</span>
+                </a>
+              )}
               <a
                 href={`https://${profile.linkedin}`}
                 target="_blank"

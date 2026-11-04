@@ -5,6 +5,7 @@
     "tagline": "Building intelligent systems at the intersection of AI and fintech",
     "summary": "Software Engineer at PayPal building and scaling core payment infrastructure on Braintree and Pay with Venmo, building agentic commerce integrations, compliance automation, and high-reliability transaction systems processing $1B+ TPV per quarter. Previously built full-stack applications at AIR Communities and conducted ML research at SDSU. BS in Computer Science from San Diego State University with a 4.0 GPA, graduated Summa Cum Laude in 2.5 years.",
     "email": "sukrutimallesh@gmail.com",
+    "phone": "858-308-4089",
     "linkedin": "www.linkedin.com/in/sukruti-mallesh-3524a021b",
     "github": "github.com/sukrutimallesh",
     "location": "Austin, TX"
@@ -12,7 +13,7 @@
   "experiences": [
     {
       "company": "PayPal - Braintree, Pay with Venmo",
-      "role": "Software Engineer",
+      "role": "Software Engineer II",
       "location": "Austin, TX",
       "period": "March 2026 - Present",
       "highlights": [
@@ -30,11 +31,11 @@
       "location": "San Jose, CA",
       "period": "Feb 2025 - March 2026",
       "highlights": [
-        "Developed an intelligent compliance chatbot using LangChain orchestration and RAG architecture, building vector embedding pipelines for all policy libraries and the entire compliance codebase with a graph database validation layer for improved answer accuracy",
-        "Led multiple gaming policy library projects to onboard new countries and financial instruments, implementing IPv6 location validation and integrating external merchant platforms including DraftKings and BetMGM, significantly improving gaming merchant payment acceptance rates",
+        "Developed a compliance chatbot using LangChain orchestration and Retrieval-Augmented Generation (RAG) architecture to process policy queries, building vector embedding pipelines for all policy libraries and the entire compliance codebase and implementing a graph database validation layer to verify vector embedding responses, improving answer accuracy and providing product teams with real-time compliance guidance",
+        "Led multiple gaming policy library projects to onboard new countries and financial instruments, implementing IPv6 location validation to replace legacy IPv4 systems, resolving critical bugs in transaction-processing logic, and integrating external merchant platforms including DraftKings and BetMGM, significantly improving gaming merchant payment acceptance rates and expanding global market reach",
         "Built and delivered agentic commerce integrations with Microsoft Copilot, Perplexity, and Meta AI, allowing users to discover, purchase, and checkout seamlessly using PayPal within AI experiences",
-        "Delivered time-sensitive, high-reliability systems for the Prediction Markets vertical, supporting PayPal's partnership with Kalshi and processing $1B+ TPV per quarter with 99.99% availability",
-        "Implemented comprehensive compliance policy validation across multiple product lines and merchant portfolios like JetBlue and Klarna, expanding payment processing capabilities and merchant ecosystem",
+        "Delivered time-sensitive, high-reliability systems for the Prediction Markets vertical, supporting PayPal's partnership with Kalshi and processing $1B+ TPV per quarter by integrating a new service and building latency-critical compliance and transaction-validation flows with 99.99% availability",
+        "Implemented comprehensive compliance policy validation across multiple product lines and merchant portfolios including JetBlue, ensuring regulatory adherence and risk mitigation while onboarding new merchants and products including Klarna, expanding payment-processing capabilities and the merchant ecosystem",
         "Executed large-scale migration ensuring system modernization and platform consolidation with zero downtime"
       ],
       "technologies": ["Java", "Spring Boot", "Python", "GCP", "RAG", "LangChain", "Docker", "MCP", "RESTful APIs", "MySQL"]
@@ -48,9 +49,9 @@
         "Built an in-house parking portal supporting four user personas: Guest, Community Manager, Super Admin, and Towing Company, improving access control and user experience by 95%",
         "Developed a full-stack web application using React, .NET, and RESTful APIs integrated with Azure Gateway, leading to a 25% increase in scalability and API performance",
         "Implemented secure payment processing through Stripe API integration, enabling seamless parking fee collection and automated receipt generation",
-        "Refactored state management by replacing local storage with Context API and Redux, reducing browser switching issues by 40% and integrated Twilio SMS API for OTP verification and automated notifications, driving a 30% increase in user engagement",
+        "Refactored the website's state management by replacing local storage with Context API and Redux, reducing browser-switching issues and cache problems by 40%, improving overall user security, and integrating the Twilio SMS API for comprehensive user communications, OTP verification, parking confirmations, and expiration alerts, driving a 30% increase in user engagement",
         "Designed the architecture for a locker system, outlining workflows and data flows to ensure seamless integration and operational efficiency",
-        "Integrated an open-source Metro 2 software converter to process resident credit reports, performing data mapping from Entrata and Plaid to generate accurate credit histories"
+        "Integrated an open-source Metro 2 software converter into existing workflows to process resident credit reports, performing data mapping from multiple sources including Entrata and Plaid to generate accurate credit histories"
       ],
       "technologies": ["React", ".NET", "Azure", "Stripe API", "Redux", "Twilio", "REST APIs", "Context API"]
     },
@@ -77,6 +78,7 @@
       "liveUrl": "",
       "technologies": ["Spring Boot", "MCP", "GitHub Copilot", "Docker", "NLP"],
       "highlights": [
+        "Architected and developed a custom MCP backend server using Spring Boot to transform manual E2E business-log analysis into an intelligent, automated validation workflow",
         "Engineered file chunking logic for context window compatibility with GitHub Copilot, improving testing efficiency by 90%",
         "Integrated GitHub Copilot for intuitive natural language log analysis with instant validation results",
         "Connected system to compliance codebase for contextual answers with precise line-level traceability",
@@ -143,6 +145,7 @@
     "Frameworks & Libraries": ["React", "Angular", "Node.js", "Spring Boot", "Express", "LangChain", "Socket.io", "Spring Security", "JWT", "Ruby on Rails"],
     "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD", "Jenkins", "Terraform", "Datadog"],
     "Data & Databases": ["PostgreSQL", "MongoDB", "MySQL", "Oracle DB", "Redis", "Kafka"],
-    "AI & ML": ["RAG", "LangChain", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models"]
+    "AI & ML": ["RAG", "LangChain", "NLP", "Computer Vision", "TensorFlow", "scikit-learn", "Large Vision Models"],
+    "Tools & Platforms": ["MATLAB", "Unity"]
   }
 }
